@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+# MIMIC-derived cases, run outputs and gold labels must never be committed (PhysioNet DUA)
+data/
+# outputs of the figure scripts
+figures/*.pdf
+figures/*.png
+figures/*.svg
